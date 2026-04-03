@@ -69,7 +69,7 @@ useEffect(() => {
   if (!sessao) return <LoginForm />
 
   return (
-    <BrowserRouter>
+    
       <div className="min-h-screen pb-20 md:pl-56" style={{ background: 'var(--cor-fundo)' }}>
         <Navbar isAdmin={isAdmin} />
         <main className="max-w-2xl mx-auto px-4 py-6">
@@ -85,6 +85,6 @@ useEffect(() => {
           </Routes>
         </main>
       </div>
-    </BrowserRouter>
+    
   )
 }

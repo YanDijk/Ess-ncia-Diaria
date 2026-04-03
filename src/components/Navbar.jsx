@@ -40,7 +40,7 @@ export default function Navbar({ isAdmin }) {
         style={{ background: 'var(--cor-card)', borderRight: '1px solid var(--cor-borda)' }}>
         <div className="mb-10 px-2">
           <h1 className="fonte-titulo text-2xl font-bold" style={{ color: 'var(--cor-dourado)' }}>
-            ✝ Devocionais
+            ✝ Devotio
           </h1>
         </div>
         <div className="flex flex-col gap-1">
